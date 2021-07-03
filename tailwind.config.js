@@ -6,17 +6,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'header':"url('/src/assets/bg-header.jpg')",
+        'header':"url('/src/assets/bg-header2.jpg')",
       })
     },
     colors: {
       gray: colors.trueGray,
-      pink: {
-        DEFAULT: '#EBBBB9',
-      },
-      brown: {
-        DEFAULT: '#5D3828',
-      },
+      black: '#000',
+      green: '#065E38',
+      brown: '#932C1B',
     },
   },
   variants: {
